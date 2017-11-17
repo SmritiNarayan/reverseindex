@@ -1,0 +1,27 @@
+How to use the program:
+1. If the user is on a windows platform, perform the following steps:
+	 i) Create a project using code blocks.
+	ii) Copy the 3 files: header.c, main.c, implementation.c into the project folder. 
+   iii) Using code blocks Add files to the project from the project menu.
+    iv) Compile and run
+2. If the user is on an ubuntu platform, perform the following steps:
+     1) Move to the appropriate folder.
+	 2) Run the make command
+	 
+Once the user runs the file on either platform, he/she is given a choice.
+The user can choose from 4 input files provided.
+The smallest file contains about 15 lines of data
+The normal file contains about 50 lines of data
+The big file contains about 6000 lines of data
+The biggest file contains about 8000 lines of data
+
+After the index is formed for the chosen file, The user can now choose the number of words the index is required for.
+Once the user enters all the required words, 3 retrieval algorithms are called. 
+1. Without any Indexing
+2. With Standard Reverse Indexing
+3. With Modified Reverse Indexing
+
+The time taken to retrieve each word through different retrieval algorithms is displayed along with the position of the entered word.
+
+
+Note: The position is defined by the paragraph number and the line number
